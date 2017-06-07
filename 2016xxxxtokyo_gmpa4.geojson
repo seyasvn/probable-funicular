@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高輪校舎からテスト投",
+        "ユーザ名": "utsuken_test",
+        "投稿日時": "2016/9/30 09:33:04",
+        "住所": "東京都港区高輪2丁目2",
+        "テキスト": "高輪校舎からテスト投稿です。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/nxuUY4\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7343667,
+          35.63838326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新橋駅内。",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtaE73qUEAALtcM.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtaE73qUEAALtcM.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.28 11:30:12",
+        "住所": "東京都港区新橋2丁目17",
+        "": "新橋駅内。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/f4xDHw\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7578853,
+          35.66730162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新橋駅日比谷口前",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtaDJycUsAE2ozq.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtaDJycUsAE2ozq.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.28 11:22:25",
+        "住所": "東京都港区新橋2丁目7",
+        "": "新橋駅日比谷口前<br>",
+        "拡大地図": "<a href=\"https://goo.gl/S98MM7\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7576588,
+          35.66765986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新橋駅前、古本市をや",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtaBkcpUsAAfunr.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtaBkcpUsAAfunr.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.28 11:15:30",
+        "住所": "東京都港区新橋2丁目7",
+        "": "新橋駅前、古本市をやっています。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/eDF8u5\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7573371,
+          35.66702536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新橋烏森。",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtZ-qu6UMAQaJpF.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtZ-qu6UMAQaJpF.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.28 11:02:49",
+        "住所": "東京都港区新橋2丁目16",
+        "": "新橋烏森。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/xieCqT\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7570211,
+          35.66603029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "埼京線大宮行きの車内",
+        "ユーザ名": "joymasu",
+        "投稿日時": "2016/9/25 17:27:32",
+        "住所": "東京都品川区大崎1丁目21",
+        "テキスト": "埼京線大宮行きの車内湘南新宿ライン運転再開のアナウンスあり<br>",
+        "拡大地図": "<a href=\"https://goo.gl/cqAtsg\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7276973,
+          35.62019125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大崎駅湘南新宿ライン",
+        "ユーザ名": "joymasu",
+        "投稿日時": "2016/9/25 17:21:17",
+        "住所": "東京都品川区大崎1丁目21-4",
+        "テキスト": "大崎駅湘南新宿ライン運転見合せ中アナウンスにしたがって６番線に移動して、埼京線に乗りかえ待ち<br>",
+        "拡大地図": "<a href=\"https://goo.gl/rRUiw9\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7279267,
+          35.61965272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "保育園の運動会。",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtFGF9tVIAEHGfM.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtFGF9tVIAEHGfM.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.24 09:43:14",
+        "住所": "東京都大田区仲池上2丁目6",
+        "": "保育園の運動会。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/6SruO3\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7022199,
+          35.58422033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "保育園の運動会",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/CtE5DwbUAAApBhN.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtE5DwbUAAApBhN.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tejirim",
+        "投稿日時": "2016.9.24 08:46:17",
+        "住所": "東京都大田区西馬込2丁目35",
+        "": "保育園の運動会<br>",
+        "拡大地図": "<a href=\"https://goo.gl/YciBhN\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7022184,
+          35.58431047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "四谷消防署前、ここも",
+        "クリック拡大": "<a href=\"https://pbs.twimg.com/media/Cs7mi0rVYAUjF6F.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/Cs7mi0rVYAUjF6F.jpg\" height=\"auto\" width=\"300\"></a>",
+        "ユーザ名": "tujikawa",
+        "投稿日時": "2016.9.22 13:28:49",
+        "住所": "東京都新宿区四谷3丁目",
+        "": "四谷消防署前、ここも雨。<br>",
+        "拡大地図": "<a href=\"https://goo.gl/FC7jCn\" target=\"_blank\">Googleマップ</a>",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7204346,
+          35.68791307
+        ]
+      }
+    }
+  ]
+}

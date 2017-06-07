@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="shortcut icon" href="http://cyberjapandata.gsi.go.jp/favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content="地形図、写真、地形分類、災害情報など、国土地理院が捉えた日本の国土の様子を発信するウェブ地図です。">
+
+    <title>地理院地図</title>
+
+    <script type="text/javascript">
+        var vURL      = "http://maps.gsi.go.jp";
+        var vURL_Site = "/?postmessage=1#18/35.465264/139.493593/&base=std&ls=std&disp=1&vs=c1j0l0u0f0";
+        var oMap      = null;        
+        function Init(){
+            oMap = document.createElement("iframe");
+            oMap.style.display = "none";
+            oMap.src = vURL + vURL_Site;
+            oMap.onload = function(){
+                var oContent   = oMap.contentWindow;
+                var ClientMode = {
+                  baseUrl     : null
+                , location    : null
+                , LayerJS     : null
+                , sakuzuList  : null
+                , queryString : null
+                };
+
+                ClientMode.sakuzuList = [{"fileName":"","visible":true,"features":[]},{"fileName":"20160925futatsubashi_gmap4.kml","visible":true,"features":[{"type":"Feature","properties":{"name":"今日も盛り上がりまし","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKzTOMVMAAE6aw.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKzTOMVMAAE6aw.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  12:18:51","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"今日も盛り上がりました。<br>","拡大地図":"<a href=\"https://goo.gl/A00TCK\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4936386,35.46558012]}},{"type":"Feature","properties":{"name":"清掃活動が終わった後","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKrxuYUAAAdXVn.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKrxuYUAAAdXVn.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:45:59","住所":"神奈川県横浜市瀬谷区宮沢1丁目2","テキスト":"清掃活動が終わった後のビールがおいしいです。<br>","拡大地図":"<a href=\"https://goo.gl/SBIa6c\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4936353,35.46576039]}},{"type":"Feature","properties":{"name":"清掃の終わった和泉川","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKp9-9VIAAsY2P.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKp9-9VIAAsY2P.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:38:05","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"清掃の終わった和泉川では家族連れが水遊び。こんな景色を見るのが楽しくて愛護会活動をしています。<br>","拡大地図":"<a href=\"https://goo.gl/GgM94v\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4937454,35.46576175]}},{"type":"Feature","properties":{"name":"やすらぎ通りのコスモ","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKnIZYUMAAA6qO.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKnIZYUMAAA6qO.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:25:40","住所":"神奈川県横浜市瀬谷区宮沢1丁目6","テキスト":"やすらぎ通りのコスモス。<br>","拡大地図":"<a href=\"https://goo.gl/kF1s8v\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4934317,35.46485631]}},{"type":"Feature","properties":{"name":"やすらぎ通りのバッタ","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKlu5AVYAAOwJT.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKlu5AVYAAOwJT.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:19:34","住所":"神奈川県横浜市瀬谷区宮沢1丁目7","テキスト":"やすらぎ通りのバッタ。<br>","拡大地図":"<a href=\"https://goo.gl/2GO813\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.49343,35.46494645]}},{"type":"Feature","properties":{"name":"やすらぎ通りのバッタ","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKlf4pVUAALCLo.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKlf4pVUAALCLo.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:18:32","住所":"神奈川県横浜市瀬谷区宮沢1丁目7","テキスト":"やすらぎ通りのバッタ。<br>","拡大地図":"<a href=\"https://goo.gl/uZJNvC\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.49343,35.46494645]}},{"type":"Feature","properties":{"name":"やすらぎ 通り。","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKk4MMVUAAE5as.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKk4MMVUAAE5as.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:15:50","住所":"神奈川県横浜市瀬谷区宮沢1丁目7","テキスト":"やすらぎ 通り。<br>","拡大地図":"<a href=\"https://goo.gl/hZY7NZ\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4935369,35.46512808]}},{"type":"Feature","properties":{"name":"二ツ橋水辺公園で草刈","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKjtZXUkAAarlK.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKjtZXUkAAarlK.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:10:44","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"二ツ橋水辺公園で草刈り、清掃活動中。<br>","拡大地図":"<a href=\"https://goo.gl/rD4nka\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4933283,35.46449441]}},{"type":"Feature","properties":{"name":"刈った草を運び出しま","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKiqqaUsAA4XbI.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKiqqaUsAA4XbI.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  11:06:11","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"刈った草を運び出します。<br>","拡大地図":"<a href=\"https://goo.gl/Hb11lf\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.493859,35.46558284]}},{"type":"Feature","properties":{"name":"刈った草はリヤカーで","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKgbwlUsAA3nAG.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKgbwlUsAA3nAG.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  10:56:25","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"刈った草はリヤカーで運び出します。<br>","拡大地図":"<a href=\"https://goo.gl/ZcSZKI\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4936369,35.46567026]}},{"type":"Feature","properties":{"name":"二ツ橋水辺愛護会の活","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKejuAVUAAtdad.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKejuAVUAAtdad.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  10:48:13","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"二ツ橋水辺愛護会の活動をDITS中継中です。<br>","拡大地図":"<a href=\"https://goo.gl/cLWLNn\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4937404,35.46603216]}},{"type":"Feature","properties":{"name":"二ツ橋水辺公園で草刈","クリック拡大":"<a href=\"https://pbs.twimg.com/media/CtKcujEVYAAjXeO.jpg\" target=\"_blank\"> <img src=\"https://pbs.twimg.com/media/CtKcujEVYAAjXeO.jpg\" height=\"auto\" width=\"300\"></a>","ユーザ名":"tujikawa","投稿日時":"2016.9.25  10:40:13","住所":"神奈川県横浜市瀬谷区宮沢1丁目1","テキスト":"二ツ橋水辺公園で草刈り中です。<br>","拡大地図":"<a href=\"https://goo.gl/QcafHe\" target=\"_blank\">Googleマップ</a>","_markerType":"Icon","_iconUrl":"http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png","_iconSize":[20,20],"_iconAnchor":[10,10]},"geometry":{"type":"Point","coordinates":[139.4936336,35.46585053]}}]}];
+
+
+                oContent.postMessage(ClientMode, vURL);
+  
+                EvtResize();
+            };
+
+            document.body.appendChild(oMap);
+        };
+
+        function EvtResize(){
+	        var w = window.innerWidth;
+	        var h = window.innerHeight;
+            if(oMap != null){
+                oMap.style.width   = w + "px";
+                oMap.style.height  = h + "px";
+                if(oMap.style.display == "none"){
+                    oMap.style.display = "block";
+                }
+            }
+        };
+
+        window.onload   = function(){
+            document.body.style.margin   = "0px";
+            document.body.style.padding  = "0px";
+            document.body.style.overflow = "hidden";
+
+            Init();
+        }
+        window.onresize = EvtResize;
+    </script>
+</head>
+<body></body>
+</html>
