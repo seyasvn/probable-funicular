@@ -1,2 +1,0 @@
-# probable-funicular
-chiriin-map
